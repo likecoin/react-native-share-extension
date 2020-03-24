@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '10.0'
 
-  s.source       = { :git => "https://github.com/likecoin/react-native-share-extension.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/likecoin/react-native-share-extension.git", :commit => "fc71b8868fd447282c3399e00eef2271cd238c4c" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
